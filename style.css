@@ -3,30 +3,102 @@
 margin: 0;
      padding: 0;
 }
-
-
+body{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .cabecalho{
-
-    background-image: url(https://s1.static.brasilescola.uol.com.br/be/2022/06/paisagem-natural-floresta.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+padding: 20px 20px;
+   background-color:rgb(45, 66, 45);
     color:rgb(4, 34, 9); 
     display: flex;
-    justify-content:space-around;
-   align-items:start;
-
-
-
+    justify-content:space-between;
+    justify-content:flex-start;
 }
 .indo-ali{
-width: 20%;
-
-
+width: 10%;
+}
+.voltando-ali{
+    width: 20%;
+}
+.historia{
+background-image: linear-gradient(rgb(45, 66, 45), rgb(6, 139, 6));
+color:rgb(4, 34, 9); 
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding: 24px 0;
 }
 .cabecalho-lista-item{
-font-size: 24px;
+font-size: 40px;
 display: inline-block;
-margin: 0 150px;
+margin: 0 10px;
+}
+.div-hitoria{
+font-size: 25px;
+    margin: 24px ;
+width: 50%;
+}
+.hitoria-titulo{
+    padding: 40px 0;
+}
+.estudar-div{
+text-align: center;
 }
 
+.indos-alis-titulo{
+text-align: center;
+padding: 24px;
+color:rgb(4, 34, 9); ;
+}
+.ao-mosso-div{
+    text-align: center;
+}
+.all-mosso-div{
+    text-align: center;
+}
+.ao-mosso{
+
+width: 67%;
+
+}
+.all-mosso{
+    width: 73%;
+}
+.come-bosta-div{
+    text-align: center;
+}
+.come-bosta{
+    width: 75%;
+}
+.gosar-div{
+    text-align: center;
+}
+.gosar{
+    width: 70%;
+}
+
+.drogas-div{
+    text-align: center;
+}
+.drogas{
+width: 73%;
+
+}
+.indos-alis-imgs{
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+
+}
+.rodapé{
+    background-color: black;
     
+}
+.musica{
+color:white;
+padding: 0 40px;
+width: 40%;
+}
+
+
+
+
