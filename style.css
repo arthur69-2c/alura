@@ -1,5 +1,32 @@
-header{
+*{
 
-    background-color: #424E61;
-    color:white
+margin: 0;
+     padding: 0;
 }
+
+
+.cabecalho{
+
+    background-image: url(https://s1.static.brasilescola.uol.com.br/be/2022/06/paisagem-natural-floresta.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color:rgb(4, 34, 9); 
+    display: flex;
+    justify-content:space-around;
+   align-items:start;
+
+
+
+}
+.indo-ali{
+width: 20%;
+
+
+}
+.cabecalho-lista-item{
+font-size: 24px;
+display: inline-block;
+margin: 0 150px;
+}
+
+    
